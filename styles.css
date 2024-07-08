@@ -1,0 +1,186 @@
+* {
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    color: #333;
+}
+#login-screen {
+    margin: 10%;
+}
+
+.Login_Menu button:hover {
+    scale: 115%;
+    color: #f0f0f0;
+}
+.Login_Menu button {
+    height: 200px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+#admin{
+    background-color: saddlebrown;
+}
+#user{
+    background-color: skyblue;
+}
+
+button:hover{
+    background-color: black;
+    color: #ccc;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.menu {
+    margin-top: 20px;
+    background-color: #05042D;
+}
+
+.menu h2{
+    color: #ccc;
+    padding-top: 20px;
+}
+
+#content {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.activity {
+    border: 1px solid #6d6d6d;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+}
+
+#activity-description{
+    height: auto;
+}
+
+.activity img {
+    width: 80%;
+    height: auto;
+}
+
+.activity-detail{
+    margin: auto;
+    width: 90%;
+}
+
+.activity-detail img {
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+}
+
+.activity-update img {
+    width: 100%;
+    height: auto;
+}
+.activity-update {
+    max-width: 500px;
+    border: gray;
+    border-style: solid;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .coolinput label.text {
+    font-size: 13px;
+    color: #252525;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+  }
+  
+  .coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #222222 solid;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  .coolinput input[type=file].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #222222 solid;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  .coolinput textarea.input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #222222 solid;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  
+  .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+
+  .custom-select {
+    font-size: 0.75rem;
+    border: 2px #222222 solid;
+    border-radius: 5px;
+    background: #ffffff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .Schedule{
+    margin: auto;
+  }
+
+  .bg-red{
+    background-color: red;
+    color: white;
+  }
+
+  .bg-blue{
+    background-color: blue;
+    color: white;
+  }

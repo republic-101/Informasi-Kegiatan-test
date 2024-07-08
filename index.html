@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Menghubungkan file CSS untuk gaya -->
+</head>
+<body>
+    
+    <div id="login-screen" class="Login_Menu">
+        <h2>Login Sebagai:</h2>
+        <button onclick="login('admin')" id="admin">Admin</button>
+        <button onclick="login('user')" id="user">User</button>
+        <!-- Menyediakan tombol login untuk Admin dan User -->
+    </div>
+
+    <div id="admin-menu" class="menu" style="display:none;">
+        <h2>Admin Menu</h2>
+        <button onclick="showAddActivityForm()">Tambah Kegiatan</button>
+        <button onclick="showEditActivityForm()">Edit Kegiatan</button>
+        <button onclick="showDeleteActivityForm()">Hapus Kegiatan</button>
+        <button onclick="viewActivities()">Lihat Kegiatan</button>
+        <button onclick="showAddUpdateForm()">Update/Product Kegiatan</button>
+        <button onclick="showManageSchedulesForm()">Kelola Jadwal Kegiatan</button>
+        <button onclick="logout()">Keluar</button>
+        <!-- Menyediakan menu untuk Admin dengan opsi tambah, edit, hapus, lihat, dan update kegiatan -->
+    </div>
+
+    <div id="user-menu" class="menu" style="display:none;">
+        <h2>User Menu</h2>
+        <button onclick="viewActivities()">Lihat Kegiatan</button>
+        <button onclick="logout()">Keluar</button>
+        <!-- Menyediakan menu untuk User dengan opsi lihat kegiatan dan keluar -->
+    </div>
+
+    <div id="content">
+        <!-- Konten dinamis akan ditampilkan di sini -->
+    </div>
+
+    <script src="scripts.js"></script>
+    <!-- Menghubungkan file JavaScript untuk fungsionalitas -->
+</body>
+</html>
